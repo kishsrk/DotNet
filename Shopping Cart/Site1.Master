@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Shopping_Cart.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+        <div style="text-align:center; background-color:chocolate; font-size:xx-large; font-family:'Bradley Hand ITC'">
+            <h1>Shopping Cart</h1>
+        </div>
+        
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+    </div>
+       <div style="text-align:center; background-color:cadetblue; font-size:medium; font-family:Constantia">
+            <h2>All rights reserved &copy; Capgemini</h2>
+        </div>
+    </form>
+</body>
+</html>
